@@ -7,6 +7,11 @@ spring:
     consul:
       host: localhost
       port: 8500
+  rabbitmq:
+    host: 47.99.112.1
+    port: 5672
+    username: mofeideyu
+    password: xuemofei510521
 
   profiles:
     active: dev
